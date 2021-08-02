@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{e97a21fa-66e4-49f7-9ed2-238d24e52105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\GL">
+      <UniqueIdentifier>{c665e7a2-cf09-4232-97cf-52db4df72b50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{77010d3f-c3ca-4ccb-ab3e-7d0e771dc652}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\bank_checker.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\cmd_arg_reader.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\cutil.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\error_checker.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\exception.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\stopwatch.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\stopwatch_base.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\stopwatch_win.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Gl\glext.h">
+      <Filter>inc\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Gl\glh_extensions.h">
+      <Filter>inc\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Gl\glh_genext.h">
+      <Filter>inc\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Gl\glut.h">
+      <Filter>inc\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Gl\glxext.h">
+      <Filter>inc\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Gl\wglext.h">
+      <Filter>inc\GL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="inc\stopwatch_base.inl">
+      <Filter>inc</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\bank_checker.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmd_arg_reader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cutil.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\error_checker.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stopwatch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stopwatch_win.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
