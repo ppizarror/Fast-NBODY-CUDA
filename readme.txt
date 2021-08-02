@@ -96,3 +96,5 @@ In test mode, the simulation is run on both the CPU and GPU and
 a comparison is done.  If all positions in the GPU simulation are
 within a tolerance of the CPU simulation, the simulator reports
 "Test PASSED".  Otherwise it reports "Test FAILED".
+
+Author: Felipe Subiabre
